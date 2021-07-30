@@ -20,5 +20,5 @@
 - Run Migration
     > `php artisan migrate`
 
--Add cronjob for mail job queues
+- Add cronjob for mail job queues
     > `* * * * * /usr/local/bin/php /hostpath/flw-laravel-integration/artisan schedule:run >> /hostpath/flw-laravel-integration/storage/logs/mail-job.log 2>&1`
